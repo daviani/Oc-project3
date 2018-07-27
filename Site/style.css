@@ -1,0 +1,350 @@
+/*MAIN*/
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.container {
+    min-width: 100% !important; 
+    padding: 0 !important;
+}
+body {
+    overflow-x: hidden;
+}
+a, a:visited, a:active
+{
+    color:#3C7AB7;
+    text-decoration:none;
+}
+/* FONT */
+p, .carouseltext, .label-text, label, body > header > nav > div.navbar-header > div, body {
+    font-family: 'Teko', sans-serif !important;
+}
+.content-header, #secondarytitle, #maintitle, .test007, h3, .h3title {
+  font-family: 'Oleo Script', cursive !important;
+}
+/*H2/H3TITLES*/
+.h3title, h3 {
+    font-weight: 600;
+    padding-top: 75px !important;
+    padding-bottom: 35px !important;
+    text-align: center;
+    color: #3C7AB7 !important;
+    margin: inherit;
+    font-size: 3em;
+}
+/*NAVBAR*/
+/*scroll effect*/
+.navbar-trans {
+    background-color: transparent;
+    border: none;
+    transition: top 1s ease;
+  }
+   
+  /*double row*/
+.navbar-doublerow > .navbar{
+    display: block;	
+    padding: 0px auto;
+    margin: 0px auto;
+    min-height: 25px;
+}
+.navbar-doublerow .nav{
+    padding: 0px auto;
+}
+.navbar-doublerow .dividline{
+    margin: 5px 100px;
+    padding-top: 1px;
+    background-color: inherit;
+}
+  /*top nav*/
+.navbar-doublerow .navbar-top ul>li>a {
+    padding: 15px 30px;
+    font-size: 14px;
+  } 
+  /*down nav*/
+.navbar-doublerow .navbar-down .navbar-brand {
+    padding: 0px auto;
+    float: left;
+    color: rgb(20, 47, 84) !important;
+    font-size: 32px;
+}
+.navbar-doublerow .navbar-down ul>li>a{
+    font-size: 16px;
+    color: black;
+    transition: border-bottom .2s ease-in , transform .2s ease-in-out;
+}
+.navbar-doublerow .navbar-down ul>li>a:hover{
+    border-bottom: 1px solid black;
+    color: black;
+}
+.navbar-doublerow .navbar-down .dropdown{
+      padding: 5px;
+      color: black;
+}
+.navbar-doublerow .navbar-down .dropdown ul>li>a,
+.navbar-doublerow .navbar-down .dropdown ul>li>a:hover{
+    color: black;
+    border-bottom: none;
+}
+
+.navbar-doublerow.navbar-trans.afterscroll {
+    top:-50px;
+  }	
+  
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+  /*text*/
+.text-white,.text-white-hover:hover{
+    padding: 15px 30px;
+    color: rgb(255, 255, 255)!important;
+}
+  /*fontcolor*/
+.light-grey {
+    color:#000!important;
+    background-color: white!important
+}
+.navbar-top {
+    background-color: rgb(20, 47, 84);
+}
+.navbar-down {
+    background-color: rgb(60, 122, 183);
+}
+.test007 {
+    font-size: 0.6em;
+    color: rgb(20, 47, 84) !important;
+    
+    padding-left: 15px;
+}
+.test007:hover {
+    text-decoration: none;
+}
+
+/* MAINTITLE*/
+#maintitle {
+    padding-top: 350px;
+    color: #142F54 !important;
+    text-align: center;
+    font-size: 5em;
+    font-weight: 800 !important;
+}
+#secondarytitle {
+    font-size: 3em;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(20, 47, 84);
+}
+
+/* MAINBACKGROUND */
+#mainbackground {
+    background: url(img/mainbackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 104vh;
+    margin-top: -30px; 
+}
+
+/*CAROUSEL*/
+img  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    z-index: 1; 
+}
+.carouseltext {
+    text-align: center;
+    font-size: 1.25em;
+    z-index: 1;
+}
+body > div.owl-carousel.owl-theme.owl-loaded.owl-drag > div.owl-nav > div.owl-prev {
+    visibility: none;
+}
+
+/*PROGRAMMATION*/
+#runningorder {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 800px;    
+    background-image: url(img/runningorder.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 25px 25px;
+-moz-border-radius: 25px 25px 25px 25px;
+-webkit-border-radius: 25px 25px 25px 25px;
+}
+.gris1 {
+    background-color: rgba(145,145,145,0.7);
+    color: rgb(0,0,0);
+    font-size: 1.30em;
+}
+
+.gris2 {
+    background-color: rgba(34,34,34,0.7);
+    color: rgb(255,255,255);
+    font-size: 1.30em;
+}
+.un {
+    border-radius: 25px 0px 0px 0px;
+    -moz-border-radius: 25px 0px 0px 0px;
+    -webkit-border-radius: 25px 0px 0px 0px;
+}
+.deux {
+   border-radius: 0px 25px 0px 0px;
+    -moz-border-radius: 0px 25px 0px 0px;
+    -webkit-border-radius: 0px 25px 0px 0px; 
+}
+
+.trois {
+   border-radius: 0px 0px 0px 25px;
+    -moz-border-radius: 0px 0px 0px 25px;
+    -webkit-border-radius: 0px 0px 0px 25px; 
+}
+
+.quatre {
+    border-radius: 0px 0px 25px 0px;
+    -moz-border-radius: 0px 0px 25px 0px;
+    -webkit-border-radius: 0px 0px 25px 0px;
+}
+td, th {
+    width: 25%;
+    text-align: center;
+    font-weight: 800 !important;    
+}
+
+th {
+
+    height: 60px;
+    padding-top: 18px !important;
+    text-align: center !important;
+    font-size: 1.35em !important;
+}
+
+td {
+    padding-top: 65px !important;
+    
+}
+
+table {
+    height: 100%;
+    width: 100%;
+}
+
+/*FORMULAIRE*/
+#contact > section > div > div > div {
+    display: flex;
+    justify-content: center;
+}
+body {
+    width:100%;
+    height:100%;
+    
+}
+
+p {
+    margin:0 0 25px;
+    font-size:18px;
+    line-height:1.6em;
+    color: #000
+}
+a {
+    color:#000;
+}
+a:hover,a:focus{
+    text-decoration:none;
+    color:#000;
+}
+
+.contact{
+    padding-bottom:80px;
+}
+.form-group {
+    color: #000;
+}
+.label-text {
+    color: #000;
+}
+
+textarea.form-control{
+    background-color: #d8d8d8;
+    height:100px;
+}
+
+#exampleInputName2 {
+    background-color: #d8d8d8;
+    color: #222;
+}
+#exampleInputEmail2 {
+    background-color: #d8d8d8;
+    color: #222;
+}
+body > section > div > div > div > div > form > div:nth-child(3) > textarea {
+    background-color: #d8d8d8;
+    color: #222;
+}
+
+/* MAPS*/
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+/* FOOTER */
+#footer {
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    background-color: #000; 
+    bottom:0px;
+    bottom: 0px;
+}
+#legal {
+    font-size: 1.5em !important;
+    text-align: center; 
+    padding-top: 25px;
+    background-color: #000;
+    color: white;
+}
+
+#oc {
+    font-size: 1em !important;
+    text-align: center;
+    padding-top: -25px;
+    background-color: #000;
+    color: white;
+}
+
+
+@media screen and (max-width: 640px) {
+    #maintitle {
+        font-size: 2em;
+    }
+    #secondarytitle {
+        font-size: 1em;
+    }
+    .test007 {
+        font-size: 0.4em;
+    }
+    .h3title, h3 {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+    #maintitle {
+        font-size: 3.5em;
+    }
+    #secondarytitle {
+        font-size: 2em;
+    }
+    .test007 {
+        font-size: 0.5em;
+    }
+    .h3title, h3 {
+        font-size: 2.5em;
+    }
+}
